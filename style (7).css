@@ -1,0 +1,111 @@
+.hello {
+    margin-top: 90px px 0px 120px;
+    display: flex;
+    flex-wrap: wrap; /* Позволяет переносить блоки на новую строку */
+    gap: 10px; /* Расстояние между блоками */
+    
+}
+
+.blok1, .blok2 {
+    flex: 0 1 45%; /* Устанавливаем ширину блоков 1 и 2 на 45% */
+    box-sizing: border-box; /* Включаем отступы в ширину блока */
+}
+
+.blok3, .blok4 {
+    flex: 0 1 45%; /* Заставляем блоки 3 и 4 занимать полную ширину */
+    box-sizing: border-box; /* Включаем отступы в ширину блока */
+}
+
+.blok1 {
+    height: 506px;
+    gap: 10px;
+
+}
+
+.blok2 {
+    height: 468px;
+    gap: 10px;
+}
+
+.blok3 {
+    height: 468px;
+}
+
+.blok4 {
+    height: 506px;
+    gap: 10px;
+}
+.blok1 p{
+    width: 450px;
+    height: 286px;
+}
+.blok2 p{
+    width: 450px;
+    height: 190px;
+}
+.blok3 p{
+    width: 432px;
+    height: 252px;
+}
+.blok4 p{
+    width: 477px;
+    height: 190px;
+}
+.hello {
+    margin-left: 120px;
+    margin-top: 90px;
+}
+h2{
+    margin-left: 120px;
+}
+@media(max-width: 375px){
+    .glavnoe{
+        padding-left: 23;
+    }
+    p{
+        width: 328px;
+        height: 125px;
+        font-weight: 400;
+    }
+    .beckender{
+        width: 180px;
+        height: 180px;
+    }
+    .student{
+        width: 180px;
+        height: 180px;
+    }
+    .junior{
+        width: 180px;
+        height: 180px;
+    }
+    .devochka{
+        width: 180px;
+        height: 180px;
+    }
+    .blok1{
+        width: Hug (328px)px;
+        height: Hug (350px)px;
+        gap: 10px;   
+    }
+    .blok2{
+        width: Hug (328px)px;
+        height: Hug (350px)px;
+        gap: 10px;        
+    }
+    .blok3{
+        width: Hug (328px)px;
+        height: Hug (325px)px;
+        gap: 10px;     
+    }
+    .blok4{
+        width: Hug (328px)px;
+        height: Hug (375px)px;
+        gap: 10px;
+    }
+    h4{
+    width: 328px;
+    height: 25px;
+    font-weight: 600;
+    }
+}
